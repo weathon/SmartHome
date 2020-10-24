@@ -26,18 +26,43 @@
     <script>
         var limit=320;
         var count=0;
+	var H=[];
+var T=[];
+var HIT=[];
+var light=[];
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 // Typical action to be performed when the document is ready:
                 console.log(xhttp.responseText);
-                count++;
+		console.log(typeof(xhttp.responseText))	
+		    tmp=""
+		    for(var i=0;i<xhttp.responseText.length-4;i++)
+			    tmp+=xhttp.responseText[i]
+
+		    tmp+="}]}"
+                tmp=tmp.replace(/\'/g, "\""); //response not changeable?
+
+			// need to do this when save
+		    var obj=JSON.parse(tmp)["dataset"];
+		for(var i=0;i<obj.length;i++)
+		    {
+			    H.push(obj[i].humidity);
+			    T.push(obj[i].temp);
+		    }
+
+		    count++;
                 if(count>=limit)
                 {
+			var ctx = document.getElementById('myChart');
+		   var myLineChart = new Chart(ctx, {
+    type: 'line',
+			   data: 
+			   {datasets:[{data:T}]}}); 
                     return;
                 }
                 else{
-                    xhttp.open("GET", "/python/jsons/"+toStrng(count+1)+".json", true);
+                    xhttp.open("GET", "/python/jsons/"+String(count+2)+".json", true);
                     xhttp.send();
                 }
             }

@@ -1,0 +1,33 @@
+
+    {'date':"2020-10-24 00:35:02.950238",
+      'dataset': [ {
+    "humidity":69.00,
+    "temp":19.70,
+    "HIC":19.53,
+    "light":891
+},{
+    "humidity":69.00,
+    "temp":19.60,
+    "HIC":19.42,
+    "light":956
+},{
+    "humidity":69.00,
+    "temp":19.70,
+    "HIC":19.53,
+    "light":897
+},{
+    "humidity":70.00,
+    "temp":19.60,
+    "HIC":19.44,
+    "light":899
+},{
+    "humidity":70.00,
+    "temp":19.70,
+    "HIC":19.55,
+    "light":899
+},{
+    "humidity":71.00,
+    "temp":19.60,
+    "HIC":19.47,
+    "light":897
+},

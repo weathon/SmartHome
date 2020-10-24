@@ -1,0 +1,303 @@
+
+    {'date':"2020-10-24 04:20:18.370243",
+      'dataset': [ {
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":71.00,
+    "temp":18.00,
+    "HIC":17.71,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":71.00,
+    "temp":18.00,
+    "HIC":17.71,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1020
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1019
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1021
+},{
+    "humidity":71.00,
+    "temp":18.00,
+    "HIC":17.71,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1023
+},{
+    "humidity":70.00,
+    "temp":17.90,
+    "HIC":17.57,
+    "light":1022
+},]}

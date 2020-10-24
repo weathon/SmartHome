@@ -22,9 +22,9 @@
 </head>
 
 <body>
-    <canvas id="myChart" width="10000"></canvas>
+    <canvas id="myChart"></canvas>
     <script>
-        var limit = 340;
+        var limit = 494;
         var count = 0;
         var H = [];
         var T = [];
@@ -33,6 +33,7 @@
         var xhttp = new XMLHttpRequest();
         // Chart.defaults.global.hover.intersect = false;
         xhttp.onreadystatechange = function () {
+		console.log(count);
             if (xhttp.responseText.length >= 5 & this.status == 200) {
                 // Typical action to be performed when the document is ready:
                 // console.log(xhttp.responseText);
@@ -64,8 +65,10 @@
                 }
 
                 count++;
-                if (count >= limit) {
-                    var ctx = document.getElementById('myChart');
+			console.log(limit)
+                if (count >= limit-4) {
+                    console.log("Drawing ...");
+			var ctx = document.getElementById('myChart');
                     // T = [
                     //     { x: 1, y: 1 },
                     //     { x: 2, y: -1 },
@@ -77,7 +80,7 @@
                         type: 'line',
                         data:
                             // { datasets: [{ data: [10,20,30,50,60] }] } ji shi zhe yang ye zhi you liang ge   
-                            { datasets: [{ data: HIT }] },
+                            { datasets: [{ data: light }] },
                         options: {
                             scales: {
                                 xAxes: [{
@@ -92,6 +95,7 @@
                 else {
                     xhttp.open("GET", "/python/jsons/" + String(count + 2) + ".json", true);
                     xhttp.send();
+		    return;
                 }
             }
         };

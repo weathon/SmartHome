@@ -11,7 +11,7 @@ template='''{
 
 def serializer(data):
     mylist=data.split(",")
-    # print(tuple(mylist))
+    print(tuple(mylist))
     if mylist[0]=="Failed to read from DHT sensor!":
         # mylist[0]=mylist[1]=mylist[2]=-999
         mylist[0]=-999

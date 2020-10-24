@@ -57,24 +57,22 @@ void loop() {
 //    analogWrite(10, 0);
 //  }
   // Wait a few seconds between measurements.
-//  delay(2000);
+
   commond=Serial.read();
 
     if(commond=='b')
   {
     analogWrite(10, 150);
-//    analogWrite(10, 0);
   }
    if(commond=='s')//yao liang ge s ying wei read le jiu 
   {
     analogWrite(10, 0);
   }
 
-  Serial.print("Light Index:");
+//  Serial.print("Light Index:");
   Serial.println(analogRead(A0));
-  count++;
-  if(count==100){  
-    count=0;
+  
+  delay(2000);
   // Reading temperature or humidity takes about 250 milliseconds!
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
   float h = dht.readHumidity();
@@ -85,7 +83,7 @@ void loop() {
 
   // Check if any reads failed and exit early (to try again).
   if (isnan(h) || isnan(t) || isnan(f)) {
-    Serial.println(F("Failed to read from DHT sensor!"));
+    Serial.print(F("Failed to read from DHT sensor!,"));
     return;
   }
  
@@ -94,16 +92,20 @@ void loop() {
   // Compute heat index in Celsius (isFahreheit = false)
   float hic = dht.computeHeatIndex(t, h, false);
 
-  Serial.print(F("Humidity: "));
+//  Serial.print(F("Humidity: "));
   Serial.print(h);
-  Serial.print(F("%  Temperature: "));
+  Serial.print(",");
+//  Serial.print(F("%  Temperature: "));
   Serial.print(t);
-  Serial.print(F("°C "));
-  Serial.print(f);
-  Serial.print(F("°F  Heat index: "));
+  Serial.print(",");
+//  Serial.print(F("°C "));
+//  Serial.print(f);
+//  Serial.print(",");
+//  Serial.print(F("°F  Heat index: "));
   Serial.print(hic);
-  Serial.print(F("°C "));
-  Serial.print(hif);
-  Serial.println(F("°F"));
-  }
+  Serial.print(",");
+//  Serial.print(F("°C "));
+//  Serial.print(hif);
+//  Serial.println(F("°F"));
+  
 }
